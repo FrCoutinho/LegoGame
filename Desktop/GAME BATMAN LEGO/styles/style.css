@@ -1,0 +1,172 @@
+body {
+    padding: 0;
+    text-align: center;
+   
+    
+  }
+  
+  #game-intro {
+    padding: 20px;
+  }
+ 
+  
+  h1 {
+    text-align: center;
+    position: relative;
+    font-size: 60px;
+    font-weight: 100px;
+    margin-bottom: -200px;
+    font-family:'BatmanForeverOutline' , sans-serif ; família de fontes : 'BatmanForeverAlternate' , sans-serif ;
+    color: #ebd82f;
+    background-image:<img src="Fundo.jpg" alt="" class="Fundo.jpg" />;
+
+  }
+  
+  h2 {   
+    text-align: center;
+    position: top;
+    top: 0;
+    margin-top: -400px;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #b92f13;
+    font-family: 'BatmanForeverOutline' , sans-serif ; família de fontes : 'BatmanForeverAlternate' , sans-serif ;
+  }
+  
+  
+.scoreGame{
+  text-align: center;
+  position: top;
+  top: 0;
+  margin-top: -100;
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #eba311;
+  font-family: 'BatmanForeverOutline' , sans-serif ; família de fontes : 'BatmanForeverAlternate' , sans-serif ;
+}
+
+
+  .overlay-logo.png {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'LVDC Game Over 2', sans-serif;
+                                                
+    z-index: 1;
+  }
+  
+  
+  .button-start{
+    position:relative;
+    display:inline-block;
+    margin:-200px;
+    position: -100px;
+  }
+  
+  .button-start a{
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:36px;
+    text-align: center;
+    text-decoration:none;
+    background-color:#ff642b;
+    display:block;
+    position:relative;
+    padding:20px 40px;
+    
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .button-start a:active{
+    top:10px;
+    background-color:#ff642b;
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+    box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  }
+  
+  .button-start:after{
+    content:"";
+    height:100%;
+    width:100%;
+    padding:4px;
+    position: absolute;
+    bottom:-15px;
+    left:-4px;
+    z-index:-1;
+    background-color:#2B1800;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  
+}
+#game-screen{
+  display: none;
+  align-content: center;
+  padding: 200px 200px;
+  overflow: hidden;
+  position: relative;
+  background-image: url(../imagens/Gotham-1.webp);
+  background-size: cover;
+}
+
+
+#game-end {
+  display: none;
+  background-color: rgba(242, 239, 239, 0.674);
+}
+.gameOverLogo{
+font-size: 200px, 300px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 200px;
+ }
+#gameOver {
+  text-align: center;
+    position: relative;
+    font-size: 200px;
+    font-weight: 100px;
+    margin-bottom: -200px;
+    font-family:'BatmanForeverOutline' , sans-serif ; família de fontes : 'BatmanForeverAlternate' , sans-serif ;
+    color: #ebd82f;
+}
+#restart-button{
+  margin-top: 
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  font-weight: 900;
+  font-family: inherit;
+  color:yellow;
+  font-size: 20px;
+  height: 38px;
+  padding: 20px 60px 50px;
+  border-radius: 80px;
+  background-image: linear-gradient(180deg,#a9d64f,#101011);
+  box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+  transition: all .2s ease-out;
+  :hover{
+      box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
+  }
+  
+
+}
+
+

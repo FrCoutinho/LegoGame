@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    
+    
+    
+    
+    <title>BATMAN LEGO</title>
+  </head>
+  <body>
+      <main>
+        <!---------------MENU do GAME------------------ -->
+        <div id="game-intro">
+          <h1>BATMAN LEGO</h1>
+          <img src="./imagens/Fundo.jpg" alt="Background Image" class="Fundo.jpg">
+          <br>
+        </div>
+          <div class="scoreGame">
+              <h2>Stats</h2>
+              <p>Score: <span id="score">0</span></p>
+              <p>Lives: <span id="lives">3</span></p>
+              <br>
+          </div>
+           
+          <button id="button-start">
+            <div class="button-start">
+              <a href="#starbtn">START</a>
+            </div>
+          </button>
+    <!---------- Ecran de Jogo --------------------->
+      <div id="game-screen"></div>
+      
+      
+    <!---------------- END GAME -------------------------->
+        <div id="game-end">
+          <h1 id="gameOver">Game Over</h1>
+          <img src="./imagens/JokerGameOver.jpg" alt="Background Image" class="gameOverLogo">
+          <br />
+          <button id="restart-button">Restart</button>
+        </div>
+      </main>
+      <script type="text/javascript" src="js/projectile.js"></script>
+      <script type="text/javascript" src="js/obstacle.js"></script>
+      <script type="text/javascript" src="js/Player.js"></script>
+      <script type="text/javascript" src="js/game.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+     
+  </body>
+ 
+       
+  </html>
